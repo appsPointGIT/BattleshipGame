@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 4px;
+}
+
+.grid-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.empty {
+  background-color: lightblue;
+}
+
+.hit {
+  background-color: yellow;
+  cursor: not-allowed;
+}
+
+.miss {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.sunk {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.unsunk {
+  background-color: green;
+}
+
+.game-container {
+  margin: 20px;
+}
+
+.game-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.grid-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.grid-header {
+  display: flex;
+}
+
+.header-cell,
+.row-label {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+}
+
+.game-status {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.game-status h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.game-status ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-status li {
+  padding: 5px 0;
+  font-size: 16px;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+}
+
+.game-status li:last-child {
+  border-bottom: none;
+}
+
+.game-status li.sunk {
+  color: red;
+}
+
+.game-status li.afloat {
+  color: green;
+}
