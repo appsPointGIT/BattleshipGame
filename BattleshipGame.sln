@@ -5,7 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{CE18E430-2414-4AE5-A82D-2F8C58174B0D}"
 	ProjectSection(SolutionItems) = preProject
-		doc\readme.txt.txt = doc\readme.txt.txt
+		doc\Battleship Game - High-Level Design.pdf = doc\Battleship Game - High-Level Design.pdf
+		doc\Battleship Game - Steps to Run the Applecation.pdf = doc\Battleship Game - Steps to Run the Applecation.pdf
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE6F2A41-4CD6-4550-BD7B-30849CCC15D4}"
@@ -14,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{8D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{731458C8-4D77-4850-8DBD-5899182881C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipGame.API", "src\backend\BattleshipGame.API\BattleshipGame.API.csproj", "{2DD09D9B-70DD-402C-B683-678FE006D07B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.API", "src\backend\BattleshipGame.API\BattleshipGame.API.csproj", "{2DD09D9B-70DD-402C-B683-678FE006D07B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipGame.Core", "src\backend\BattleshipGame.Core\BattleshipGame.Core.csproj", "{7297DAE4-18A0-4531-882A-1C86EC0CC54E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.Core", "src\backend\BattleshipGame.Core\BattleshipGame.Core.csproj", "{7297DAE4-18A0-4531-882A-1C86EC0CC54E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipGame.Services", "src\backend\BattleshipGame.Services\BattleshipGame.Services.csproj", "{CC9ED816-F6AE-4C71-AF87-6C899A679B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.Services", "src\backend\BattleshipGame.Services\BattleshipGame.Services.csproj", "{CC9ED816-F6AE-4C71-AF87-6C899A679B76}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "battleshipgame.ui", "src\frontend\BattleshipGame.UI\battleshipgame.ui.esproj", "{7CB79AA4-DC9B-4EE4-89EB-D13BC7F093EA}"
 EndProject
